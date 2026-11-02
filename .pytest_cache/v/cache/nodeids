@@ -1,0 +1,20 @@
+[
+  "tests/test_expirylog.py::test_add_and_list_roundtrip",
+  "tests/test_expirylog.py::test_add_bad_date_exits_1_not_traceback",
+  "tests/test_expirylog.py::test_corrupt_json_is_reported",
+  "tests/test_expirylog.py::test_due_window_and_overdue",
+  "tests/test_expirylog.py::test_duplicate_needs_force",
+  "tests/test_expirylog.py::test_empty_and_wrong_shape_files",
+  "tests/test_expirylog.py::test_list_filters_by_category_and_overdue",
+  "tests/test_expirylog.py::test_list_sorts_soonest_first",
+  "tests/test_expirylog.py::test_missing_file_lists_empty",
+  "tests/test_expirylog.py::test_negative_within_rejected",
+  "tests/test_expirylog.py::test_parse_date_rejects_impossible_dates",
+  "tests/test_expirylog.py::test_purge_dry_run_changes_nothing",
+  "tests/test_expirylog.py::test_record_missing_fields_is_corrupt",
+  "tests/test_expirylog.py::test_remove_dry_run_changes_nothing",
+  "tests/test_expirylog.py::test_remove_entry_function_raises",
+  "tests/test_expirylog.py::test_remove_missing_entry_exits_1",
+  "tests/test_expirylog.py::test_save_is_atomic_no_tmp_left",
+  "tests/test_expirylog.py::test_status_boundaries"
+]
